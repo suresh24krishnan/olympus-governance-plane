@@ -1,0 +1,21 @@
+# --- Core Framework ---
+ollama             # Local LLM Communication
+jira               # Project Sentinel Ticket Management
+python-dotenv      # Environment Variable Loading
+pydantic           # Structured Data Validation
+
+# --- Tier-0 Operator Interface ---
+rich               # Command Center / Verdict Console UI
+
+# --- Logic & SRE Tools ---
+requests           # API Calls
+numpy              # Numerical Support
+scikit-learn       # Similarity Scoring (Drift Detection)
+
+# --- Optional Hardening ---
+typing-extensions  # Typing compatibility
+tenacity           # Retry / backoff (future SRE hardening)
+
+streamlit          # Olympus Command Center UI
+
+openai

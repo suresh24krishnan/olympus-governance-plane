@@ -1,0 +1,55 @@
+# =========================
+# Secrets & environment
+# =========================
+.env
+.env.*
+*.env
+
+# Virtual environments
+env/
+.venv/
+venv/
+
+# =========================
+# Python build / cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Logs & runtime artifacts
+# =========================
+logs/
+*.log
+system.log
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# OS / IDE noise
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Docs (optional – keep if private only)
+# =========================
+*.pdf
+*.docx

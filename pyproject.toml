@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "olympus"
+version = "0.1.0"
+description = "Autonomous SRE and Model Jury System"
+dependencies = [
+    "ollama",
+    "jira",
+    "python-dotenv",
+    "pydantic",
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+olympus-run = "olympus.core.arbiter:main"
