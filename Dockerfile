@@ -13,6 +13,8 @@ RUN curl -fsSL https://ollama.com/install.sh | sh
 WORKDIR /app
 COPY . /app
 
+ENV PYTHONPATH="/app/src"
+
 # ---- Python deps ----
 RUN pip install --no-cache-dir -r requirements.txt
 
